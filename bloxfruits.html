@@ -8,28 +8,48 @@
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0; padding: 0;
-      background: #f0f4f8; color: #333; text-align: center;
+      background: #f0f4f8; color: #333;
+      text-align: center;
     }
+
+    /* Header */
     header {
       background: linear-gradient(90deg, #ff512f, #dd2476);
-      color: white; padding: 40px 0;
+      color: white; padding: 50px 20px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.2);
     }
     header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin-top: 10px; font-size: 1.2em; color: #ffe0e6; }
+
+    /* Description */
+    .description {
+      max-width: 800px;
+      margin: 20px auto 30px auto;
+      font-size: 1.1em; line-height: 1.6em;
+      color: #555;
+    }
+
+    /* Table */
     table {
-      width: 90%; max-width: 800px; margin: 30px auto;
-      border-collapse: collapse; background: white; border-radius: 12px;
-      overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 90%; max-width: 800px; margin: 20px auto;
+      border-collapse: collapse; background: white;
+      border-radius: 12px; overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     th, td { padding: 15px; text-align: center; }
     th { background: #ff512f; color: white; font-size: 1.1em; }
     tr:nth-child(even) { background: #f8f8f8; }
     tr:hover { background: #ffe0e6; transform: scale(1.01); transition: 0.2s; }
     td.reward { font-weight: bold; }
-    .xp { color: #ff9800; } /* XP rewards */
-    .beli { color: #4caf50; } /* Beli rewards */
-    .reset { color: #2196f3; } /* Stat reset */
-    .note { margin-top: 20px; font-size: 0.9em; color: #555; }
+    .xp { color: #ff9800; }     /* XP rewards */
+    .beli { color: #4caf50; }   /* Beli rewards */
+    .reset { color: #2196f3; }  /* Stat reset */
+
+    .note {
+      margin-top: 20px; font-size: 0.9em; color: #555;
+    }
+
+    /* Back button */
     .button {
       display: inline-block; padding: 15px 30px; margin: 30px auto;
       background: #28a745; color: white; font-size: 1.2em;
@@ -44,7 +64,12 @@
 
 <header>
   <h1>🔥 Blox Fruits Codes</h1>
+  <p>All the active codes and rewards for Blox Fruits!</p>
 </header>
+
+<div class="description">
+  Here you can find working Blox Fruits codes for XP boosts, Beli, and stat resets. Redeem them quickly as some codes expire fast!
+</div>
 
 <table>
   <tr><th>Code</th><th>Reward</th></tr>
