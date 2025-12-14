@@ -2,109 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DOORS Codes - Roblox</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOORS Codes</title>
   <style>
-    body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0; background: #f0f4f8; color: #333; text-align: center; }
     header {
-      background-color: #111;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      color: white; padding: 40px 0;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
     }
-
-    h1, h2 {
-      color: #00ffcc;
+    header h1 { margin: 0; font-size: 2.5em; }
+    table {
+      width: 90%; max-width: 800px; margin: 30px auto; border-collapse: collapse;
+      background: white; border-radius: 12px; overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 30px;
+    th, td { padding: 15px; text-align: center; }
+    th { background: #ff7e5f; color: white; font-size: 1.1em; }
+    tr:nth-child(even) { background: #f8f8f8; }
+    tr:hover { background: #ffe5d6; transform: scale(1.01); transition: 0.2s; }
+    td.reward { font-weight: bold; }
+    .points { color: #ff9800; } /* points */
+    .keys { color: #4caf50; } /* door keys */
+    .items { color: #9c27b0; } /* items */
+    .note { margin-top: 20px; font-size: 0.9em; color: #555; }
+    .button {
+      display: inline-block; padding: 15px 30px; margin: 30px auto;
+      background: #28a745; color: white; font-size: 1.2em;
+      text-decoration: none; border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s, background 0.3s;
     }
-
-    .code-box {
-      background-color: rgba(0,0,0,0.6);
-      padding: 15px;
-      border-radius: 10px;
-      margin-bottom: 15px;
-    }
-
-    a.button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 20px 0;
-      color: #00ffcc;
-      border: 2px solid #00ffcc;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    a.button:hover {
-      background-color: #00ffcc;
-      color: #111;
-      transform: scale(1.05);
-    }
-
-    footer {
-      background-color: #111;
-      text-align: center;
-      padding: 15px;
-      color: #aaa;
-      font-size: 14px;
-    }
+    .button:hover { background: #218838; transform: translateY(-3px); }
   </style>
 </head>
-
 <body>
 
-  <header>
-    <h1>DOORS Codes 🚪</h1>
-    <p>Working Roblox DOORS codes</p>
-  </header>
+<header>
+  <h1>🚪 DOORS Codes</h1>
+</header>
 
-  <div class="container">
-    <div class="code-box">
-      <h2>COPY 5B</h2>
-      <p>Reward: Knobs</p>
-    </div>
-    <div class="code-box">
-      <h2>COPY 41</h2>
-      <p>Reward: 5 Knobs</p>
-    </div>
-    <div class="code-box">
-      <h2>COPY 54</h2>
-      <p>Reward: 5 Knobs</p>
-    </div>
-    <div class="code-box">
-      <h2>COPY 67</h2>
-      <p>Reward: 5 Knobs</p>
-    </div>
-    <div class="code-box">
-      <h2>COPY GRACE</h2>
-      <p>Reward: Free reward</p>
-    </div>
-    <div class="code-box">
-      <h2>COPY JUMP OVER THE BRICK</h2>
-      <p>Reward: 1 Stardust</p>
-    </div>
+<table>
+  <tr><th>Code</th><th>Reward</th></tr>
+  <tr><td>FREEITEMS</td><td class="reward items">Free in-game items</td></tr>
+  <tr><td>WELCOME</td><td class="reward points">1000 Points</td></tr>
+  <tr><td>EXTRADOORS</td><td class="reward keys">Extra Door Keys</td></tr>
+  <tr><td>SPOOKY</td><td class="reward items">Special Halloween Reward</td></tr>
+  <tr><td>VIPACCESS</td><td class="reward keys">VIP Room Unlock</td></tr>
+</table>
 
-    <!-- Add the back button -->
-    <a class="button" href="index.html">← Back to Home</a>
-  </div>
+<p class="note">⚠️ Codes can expire quickly — redeem them in-game as soon as possible!</p>
 
-  <footer>
-    © 2025 Game Help Hub
-  </footer>
+<a href="index.html" class="button">🏠 Back to Home</a>
 
 </body>
 </html>
