@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOORS Codes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f0f4f8; color: #333;
+      text-align: center;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      color: white; padding: 50px 20px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin-top: 10px; font-size: 1.2em; color: #fff3e0; }
+
+    /* Description */
+    .description {
+      max-width: 800px;
+      margin: 20px auto 30px auto;
+      font-size: 1.1em; line-height: 1.6em;
+      color: #555;
+    }
+
+    /* Table */
+    table {
+      width: 90%; max-width: 800px; margin: 20px auto;
+      border-collapse: collapse; background: white;
+      border-radius: 12px; overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    th, td { padding: 15px; text-align: center; }
+    th { background: #ff7e5f; color: white; font-size: 1.1em; }
+    tr:nth-child(even) { background: #f8f8f8; }
+    tr:hover { background: #ffe5d6; transform: scale(1.01); transition: 0.2s; }
+    td.reward { font-weight: bold; }
+    .points { color: #ff9800; }  /* Points */
+    .keys { color: #4caf50; }    /* Door Keys */
+    .items { color: #9c27b0; }   /* Items */
+
+    .note {
+      margin-top: 20px; font-size: 0.9em; color: #555;
+    }
+
+    /* Back button */
+    .button {
+      display: inline-block; padding: 15px 30px; margin: 30px auto;
+      background: #28a745; color: white; font-size: 1.2em;
+      text-decoration: none; border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s, background 0.3s;
+    }
+    .button:hover { background: #218838; transform: translateY(-3px); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🚪 DOORS Codes</h1>
+  <p>Active codes and rewards for DOORS!</p>
+</header>
+
+<div class="description">
+  Welcome to the DOORS codes page! Here you’ll find working codes for points, keys, and special items. Redeem them quickly as they can expire fast!
+</div>
+
+<table>
+  <tr><th>Code</th><th>Reward</th></tr>
+  <tr><td>FREEITEMS</td><td class="reward items">Free in-game items</td></tr>
+  <tr><td>WELCOME</td><td class="reward points">1000 Points</td></tr>
+  <tr><td>EXTRADOORS</td><td class="reward keys">Extra Door Keys</td></tr>
+  <tr><td>SPOOKY</td><td class="reward items">Special Halloween Reward</td></tr>
+  <tr><td>VIPACCESS</td><td class="reward keys">VIP Room Unlock</td></tr>
+</table>
+
+<p class="note">⚠️ Codes can expire quickly — redeem them in-game as soon as possible!</p>
+
+<a href="index.html" class="button">🏠 Back to Home</a>
+
+</body>
+</html>
