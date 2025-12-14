@@ -15,20 +15,25 @@
     /* Header */
     header {
       background: linear-gradient(90deg, #ff7e5f, #feb47b);
-      color: white;
-      padding: 50px 20px;
+      color: white; padding: 50px 20px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.2);
     }
     header h1 { margin: 0; font-size: 2.5em; }
-    header p {
-      margin-top: 10px; font-size: 1.2em; color: #fff3e0;
+    header p { margin-top: 10px; font-size: 1.2em; color: #fff3e0; }
+
+    /* Description */
+    .description {
+      max-width: 800px;
+      margin: 20px auto 30px auto;
+      font-size: 1.1em; line-height: 1.6em;
+      color: #555;
     }
 
     /* Table */
     table {
-      width: 90%; max-width: 800px; margin: 30px auto;
-      border-collapse: collapse;
-      background: white; border-radius: 12px; overflow: hidden;
+      width: 90%; max-width: 800px; margin: 20px auto;
+      border-collapse: collapse; background: white;
+      border-radius: 12px; overflow: hidden;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     th, td { padding: 15px; text-align: center; }
@@ -41,9 +46,7 @@
     .items { color: #9c27b0; }   /* Items */
 
     .note {
-      margin-top: 20px;
-      font-size: 0.9em;
-      color: #555;
+      margin-top: 20px; font-size: 0.9em; color: #555;
     }
 
     /* Back button */
@@ -55,26 +58,17 @@
       transition: transform 0.2s, background 0.3s;
     }
     .button:hover { background: #218838; transform: translateY(-3px); }
-
-    /* Description */
-    .description {
-      max-width: 800px;
-      margin: 20px auto;
-      font-size: 1.1em;
-      line-height: 1.6em;
-      color: #555;
-    }
   </style>
 </head>
 <body>
 
 <header>
   <h1>🚪 DOORS Codes</h1>
-  <p>Find all the active DOORS codes and rewards here!</p>
+  <p>Active codes and rewards for DOORS!</p>
 </header>
 
 <div class="description">
-  Welcome to the DOORS codes page! Here, you’ll find working codes that give you points, keys, or special items in the game. Remember, codes can expire quickly, so redeem them as soon as possible.
+  Welcome to the DOORS codes page! Here you’ll find working codes for points, keys, and special items. Redeem them quickly as they can expire fast!
 </div>
 
 <table>
