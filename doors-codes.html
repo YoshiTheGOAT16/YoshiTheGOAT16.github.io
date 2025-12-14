@@ -5,16 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOORS Codes</title>
   <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0; padding: 0; background: #f0f4f8; color: #333; text-align: center; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f0f4f8; color: #333;
+      text-align: center;
+    }
+
+    /* Header */
     header {
       background: linear-gradient(90deg, #ff7e5f, #feb47b);
-      color: white; padding: 40px 0;
+      color: white;
+      padding: 50px 20px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.2);
     }
     header h1 { margin: 0; font-size: 2.5em; }
+    header p {
+      margin-top: 10px; font-size: 1.2em; color: #fff3e0;
+    }
+
+    /* Table */
     table {
-      width: 90%; max-width: 800px; margin: 30px auto; border-collapse: collapse;
+      width: 90%; max-width: 800px; margin: 30px auto;
+      border-collapse: collapse;
       background: white; border-radius: 12px; overflow: hidden;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
@@ -23,10 +36,17 @@
     tr:nth-child(even) { background: #f8f8f8; }
     tr:hover { background: #ffe5d6; transform: scale(1.01); transition: 0.2s; }
     td.reward { font-weight: bold; }
-    .points { color: #ff9800; } /* points */
-    .keys { color: #4caf50; } /* door keys */
-    .items { color: #9c27b0; } /* items */
-    .note { margin-top: 20px; font-size: 0.9em; color: #555; }
+    .points { color: #ff9800; }  /* Points */
+    .keys { color: #4caf50; }    /* Door Keys */
+    .items { color: #9c27b0; }   /* Items */
+
+    .note {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    /* Back button */
     .button {
       display: inline-block; padding: 15px 30px; margin: 30px auto;
       background: #28a745; color: white; font-size: 1.2em;
@@ -35,13 +55,27 @@
       transition: transform 0.2s, background 0.3s;
     }
     .button:hover { background: #218838; transform: translateY(-3px); }
+
+    /* Description */
+    .description {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 1.1em;
+      line-height: 1.6em;
+      color: #555;
+    }
   </style>
 </head>
 <body>
 
 <header>
   <h1>🚪 DOORS Codes</h1>
+  <p>Find all the active DOORS codes and rewards here!</p>
 </header>
+
+<div class="description">
+  Welcome to the DOORS codes page! Here, you’ll find working codes that give you points, keys, or special items in the game. Remember, codes can expire quickly, so redeem them as soon as possible.
+</div>
 
 <table>
   <tr><th>Code</th><th>Reward</th></tr>
